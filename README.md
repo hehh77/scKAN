@@ -1,6 +1,8 @@
 #  scKAN
 
-## Interpretable Single-cell Analysis for Cell-type-specific Gene Discovery and Drug Repurposing via Kolmogorov-Arnold Networks 
+Interpretable Single-cell Analysis for Cell-type-specific Gene Discovery and Drug Repurposing via Kolmogorov-Arnold Networks
+
+*Genome Biology*: https://doi.org/10.1186/s13059-025-03779-0
 
 ![Alt text](./fig1.png "Optional title")
 
@@ -96,3 +98,17 @@ The script will create a directory named `distillation_student_model_muto2021-{t
 - `result.pkl`: Distillation results and evaluations
 - `best_model.pth`: The optimized student model weights
 
+## Citation
+If you find this work useful in your research, please consider citing:
+```bibtex
+@article{he2025sckan,
+  title={scKAN: interpretable single-cell analysis for cell-type-specific gene discovery and drug repurposing via Kolmogorov-Arnold networks},
+  author={He, Haohuai and Tang, Zhenchao and Chen, Guanxing and Xu, Fan and Hu, Yao and Feng, Yinglan and Wu, Jibin and Huang, Yu-An and Huang, Zhi-An and Tan, Kay Chen},
+  journal={Genome Biology},
+  volume={26},
+  number={1},
+  pages={300},
+  year={2025},
+  publisher={Springer}
+}
+```
